@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculatrice</title>
+</head>
+<body>
+    <div class="fieldset">
+        <fieldset class="align">
+            <legend>Calculatrice</legend>
+            <label for="number">Nombre 1</label><input type="number"id="nombre1"><br><br>
+            <div class="opera">
+                <input type="text" id="opera" readonly class="taille"><br><br>
+            </div>
+            <label for="number">Nombre 2</label><input type="number"id="nombre2"><br><br>
+            <label for="text">Resultat</label><input type="text"id="resultat" readonly><br><br>
+            <button onclick="addition()">Addition</button>
+            <button onclick="soustraction()">Soustraction</button>
+            <button onclick="multiplication()">Multiplication</button>
+            <button onclick="division()">Division</button>
+        </fieldset>
+    </div>
+    <script src="Calculatrice.js"></script>
+</body>
+</html>
